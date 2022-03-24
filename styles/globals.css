@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --brand-dark: #1976D2;
+    --brand-light: #2196F3;
+    --light: #FFFFFF;
+    --dark: #212121;
+}
+
 @tailwind base;
+@layer base {
+    * {
+        color: var(--dark);
+        font-family: 'Roboto', sans-serif;
+    }
+    #__next {
+        @apply h-full flex flex-col;
+    }
+    a {
+        color: var(--dark);
+    }
+    a:hover {
+        color: var(--brand-light);
+    }
+}
 @tailwind components;
 @tailwind utilities;
