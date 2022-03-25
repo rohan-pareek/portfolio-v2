@@ -12,22 +12,22 @@ const Navigation = props => {
         switch (asPath) {
             case '/':
                 return {
-                    title: 'Home',
+                    title: 'Rohan Pareek | About',
                     description: 'Welcome to my digital portfolio. You can access my work, education related details'
                 }
             case '/projects':
                 return {
-                    title: 'Projects',
+                    title: 'Rohan Pareek | Projects',
                     description: 'Project related information of Rohan Pareek'
                 }
             case '/education':
                 return {
-                    title: 'Education',
+                    title: 'Rohan Pareek | Education',
                     description: 'Education related information of Rohan Pareek'
                 }
             case '/skills':
                 return {
-                    title: 'Skills',
+                    title: 'Rohan Pareek | Skills',
                     description: 'Skills related information of Rohan Pareek'
                 }
 
@@ -43,31 +43,31 @@ const Navigation = props => {
         <>
             <CustomMeta title={activeMeta.title} description={activeMeta.description} />
             <nav className='py-5'>
-                <ul className='flex justify-between'>
+                <ul className='flex justify-between border-gray-200 border-b pb-2'>
                     <li>
                         <Link href="/">
-                            <a className={`${'/' === asPath ? 'border-brand-dark border-b-4' : 'hover:'}`}>
-                                Home
+                            <a className={`pb-2 ${'/' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
+                                About
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/projects">
-                            <a className={`${'/projects' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
+                            <a className={`pb-2 ${'/projects' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
                                 Projects
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/education">
-                            <a className={`${'/education' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
+                            <a className={`pb-2 ${'/education' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
                                 Education
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/skills">
-                            <a className={`${'/skills' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
+                            <a className={`pb-2 ${'/skills' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
                                 Skills
                             </a>
                         </Link>

@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <Container>
       <Navigation />
-      <section className='flex-grow'>
+      <section className='flex-grow mb-4'>
         {children}
       </section>
       <Footer />
