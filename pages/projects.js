@@ -1,8 +1,22 @@
 import React from 'react';
+import ProjectCard from '../components/project-card';
+import projects from '../data/projects.json';
 
-const Projects = ( props ) => {
+const Projects = (props) => {
   return (
-    <div>Projects</div>
+    <div>
+      {projects.map((project, index) => (
+        <ProjectCard
+          key={`${project.name}-${index}`}
+          name={project.name} 
+          gitUrl={project.github}
+          liveUrl={project.site}
+          description={project.description}
+          techstack={project.technologies}
+          personal={project.personal}
+        />
+      ))}
+    </div>
   )
 }
 
