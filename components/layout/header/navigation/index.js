@@ -34,6 +34,12 @@ const Navigation = props => {
                     description: 'Skills related information of Rohan Pareek',
                     page: 'Skills'
                 }
+            case '/certificates-awards':
+                return {
+                    title: 'Rohan Pareek | Certificates & Awards',
+                    description: 'Certificates & Awards related information of Rohan Pareek',
+                    page: 'Certificates & Awards'
+                }
 
             default:
                 return {
@@ -47,45 +53,54 @@ const Navigation = props => {
     return (
         <>
             <CustomMeta title={activeMeta.title} description={activeMeta.description} />
-            <nav className='py-5'>
-                <ul className='justify-between border-gray-200 border-b pb-2 hidden md:flex'>
-                    <li>
-                        <Link href="/">
-                            <a className={`pb-2 ${'/' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
-                                About
-                            </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/projects">
-                            <a className={`pb-2 ${'/projects' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
-                                Projects
-                            </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/education">
-                            <a className={`pb-2 ${'/education' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
-                                Education
-                            </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/skills">
-                            <a className={`pb-2 ${'/skills' === asPath ? 'border-brand-dark border-b-4' : ''}`}>
-                                Skills
-                            </a>
-                        </Link>
-                    </li>
-                </ul>
-                <section className='flex md:hidden'>
-                    <div className='flex-1 text-lg flex justify-center items-center'>
+            <nav className='lg:bg-gray-100 lg:w-48 lg:h-screen mt-5 lg:mt-0'>
+                <section className='hidden lg:flex lg:mt-10'>
+                    <ul className='justify-between border-gray-200 hidden lg:flex lg:flex-col w-48'>
+                        <li className='w-full'>
+                            <Link href="/">
+                                <a className={`p-4 w-full block ${'/' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                    About
+                                </a>
+                            </Link>
+                        </li>
+                        <li className='w-full'>
+                            <Link href="/projects">
+                                <a className={`p-4 w-full block ${'/projects' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                    Projects
+                                </a>
+                            </Link>
+                        </li>
+                        <li className='w-full'>
+                            <Link href="/education">
+                                <a className={`p-4 w-full block ${'/education' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                    Education
+                                </a>
+                            </Link>
+                        </li>
+                        <li className='w-full'>
+                            <Link href="/skills">
+                                <a className={`p-4 w-full block ${'/skills' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                    Skills
+                                </a>
+                            </Link>
+                        </li>
+                        <li className='w-full'>
+                            <Link href="/certificates-awards">
+                                <a className={`p-4 w-full block ${'/certificates-awards' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                    Certificate & Awards
+                                </a>
+                            </Link>
+                        </li>
+                    </ul>
+                </section>
+                <section className='flex lg:hidden'>
+                    <div className='flex-1 text-xl font-bold flex justify-center items-center'>
                         {activeMeta.page}
                     </div>
                     <section className='absolute top-5 right-5'>
                         <div className='relative'>
                             <button className={css['menu-button']}>
-                                <i className="fa fa-ellipsis-v"></i>
+                                <i className="fa fa-bars"></i>
                             </button>
                             <div className={`absolute right-0 top-0 shadow p-2 bg-white px-4 ${css.menu}`}>
                                 <ul>
@@ -114,6 +129,13 @@ const Navigation = props => {
                                         <Link href="/skills">
                                             <a>
                                                 Skills
+                                            </a>
+                                        </Link>
+                                    </li>
+                                    <li className='my-1'>
+                                        <Link href="/certificates-awards">
+                                            <a>
+                                                Certificates & Awards
                                             </a>
                                         </Link>
                                     </li>

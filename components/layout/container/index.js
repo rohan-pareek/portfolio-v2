@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Container = ( { children } ) => {
   return (
-    <div className='w-5/6 md:w-3/5 h-full ml-auto mr-auto flex flex-col'>
+    <div className='w-5/6 h-full ml-auto mr-auto flex flex-col'>
         {children}
     </div>
   )

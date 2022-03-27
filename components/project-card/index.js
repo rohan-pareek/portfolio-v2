@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const ProjectCard = ({ name, gitUrl, liveUrl, techstack, description, personal }) => {
     return (
-        <div className='p-4 shadow w-full mb-4'>
+        <div className='p-4 shadow w-full mb-4 bg-white'>
             <div className='mb-2 text-lg font-bold'>{name}</div>
             {personal && <div>
                 {gitUrl && <Link href={gitUrl}>

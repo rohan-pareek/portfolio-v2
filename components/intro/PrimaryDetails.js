@@ -25,11 +25,11 @@ const PrimaryDetails = props => {
         </div>
       </section>
       <section>
-        <div className='p-4 border border-gray-300 rounded-md'>
+        <div className='p-4 border border-gray-300 rounded-md bg-white'>
           <h1 className='mb-4 text-lg'>Professional Experience</h1>
           <Accordian items={experience} />
         </div>
-        <div className='p-4 border border-gray-300 rounded-md mt-4'>
+        <div className='p-4 border border-gray-300 rounded-md mt-4 bg-white'>
           <h1 className='mb-4 text-lg'>Contact</h1>
           <Contact />
         </div>

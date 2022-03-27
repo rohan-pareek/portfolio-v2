@@ -4,7 +4,7 @@ import projects from '../data/projects.json';
 
 const Projects = (props) => {
   return (
-    <div>
+    <div className='mt-10 ml-10'>
       {projects.map((project, index) => (
         <ProjectCard
           key={`${project.name}-${index}`}

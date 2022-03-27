@@ -13,6 +13,8 @@
 
 .menu-button:hover {
     background-color: #efefef;
+    transform: rotate(180deg);
+    transition: all 0.5s;
 }
 
 .menu-button:focus + .menu {

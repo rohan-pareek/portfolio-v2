@@ -7,10 +7,12 @@ import Footer from './footer'
 const Layout = ({ children }) => {
   return (
     <Container>
-      <Navigation />
-      <section className='flex-grow mb-4'>
-        {children}
-      </section>
+      <div className='flex flex-col lg:flex-row'>
+        <Navigation />
+        <section className='flex-grow mb-4'>
+          {children}
+        </section>
+      </div>
       <Footer />
     </Container>
   )

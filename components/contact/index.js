@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = props => {
     return (
         <section className='w-full'>
-            <div className='flex border rounded'>
+            <div className='flex border rounded bg-slate-50'>
                 <div className='p-2 px-4 flex-none'>
                     <i className="fa fa-envelope" style={{ width: '15px' }} aria-hidden="true"></i>
                 </div>
@@ -13,7 +13,7 @@ const Contact = props => {
                     </a>
                 </div>
             </div>
-            <div className='flex border rounded mt-2'>
+            <div className='flex border rounded bg-slate-50 mt-2'>
                 <div className='p-2 px-4 flex-none'>
                     <i className="fa fa-github" style={{ width: '15px' }} aria-hidden="true"></i>
                 </div>
@@ -23,7 +23,7 @@ const Contact = props => {
                     </a>
                 </div>
             </div>
-            <div className='flex border rounded mt-2'>
+            <div className='flex border rounded bg-slate-50 mt-2'>
                 <div className='p-2 px-4 flex-none'>
                     <i className="fa fa-linkedin" style={{ width: '15px' }} aria-hidden="true"></i>
                 </div>
