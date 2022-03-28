@@ -1,0 +1,62 @@
+[
+    {
+        "name": "html",
+        "image": "/images/html.png",
+        "exp": "4.4 years"
+    },
+    {
+        "name": "css",
+        "image": "/images/css.png",
+        "exp": "4.4 years"
+    },
+    {
+        "name": "angular",
+        "image": "/images/angular.svg",
+        "exp": "4.4 years"
+    },
+    {
+        "name": "react",
+        "image": "/images/react.svg",
+        "exp": "4.4 years"
+    },
+    {
+        "name": "nodejs",
+        "image": "/images/nodejs.png",
+        "exp": "4.4 years"
+    },
+    {
+        "name": "express",
+        "image": "/images/express.png",
+        "exp": "4.4 years"
+    },
+    {
+        "name": "mongodb",
+        "image": "/images/mongodb.png",
+        "exp": "4.4 years"
+    },
+    {
+        "name": "git",
+        "image": "/images/git.png",
+        "exp": "4.4 years"
+    },
+    {
+        "name": "nextjs",
+        "image": "/images/nextjs.png",
+        "exp": "1.5 years"
+    },
+    {
+        "name": "jest",
+        "image": "/images/jest.png",
+        "exp": "1.5 years"
+    },
+    {
+        "name": "testinglibrary",
+        "image": "/images/testinglibrary.png",
+        "exp": "1.5 years"
+    },
+    {
+        "name": "tailwindcss",
+        "image": "/images/tailwindcss.png",
+        "exp": "1.5 years"
+    }
+]

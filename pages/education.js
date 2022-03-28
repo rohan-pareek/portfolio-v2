@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = ( props ) => {
   return (
-    <section className='mt-10 ml-10'>
+    <section className='mt-10 lg:ml-10'>
       <div className='mb-2 shadow p-4 bg-white'>
         <div className='text-lg font-bold'>
           Bachelor of Engineering <span className='text-sm font-normal ml-2'>Jun 2013 - May 2017</span>

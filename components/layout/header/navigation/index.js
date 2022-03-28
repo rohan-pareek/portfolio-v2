@@ -53,40 +53,40 @@ const Navigation = props => {
     return (
         <>
             <CustomMeta title={activeMeta.title} description={activeMeta.description} />
-            <nav className='lg:bg-gray-100 lg:w-48 lg:h-screen mt-5 lg:mt-0'>
-                <section className='hidden lg:flex lg:mt-10'>
+            <nav className='lg:bg-gray-100 lg:w-48 lg:h-screen mt-5 lg:mt-0 lg:sticky lg:top-0'>
+                <section className='hidden lg:flex lg:mt-10 lg:sticky lg:top-0'>
                     <ul className='justify-between border-gray-200 hidden lg:flex lg:flex-col w-48'>
                         <li className='w-full'>
                             <Link href="/">
-                                <a className={`p-4 w-full block ${'/' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                <a className={`p-4 w-full block ${'/' === asPath ? 'bg-brand-light bg-b-4' : 'hover:bg-gray-200'}`}>
                                     About
                                 </a>
                             </Link>
                         </li>
                         <li className='w-full'>
                             <Link href="/projects">
-                                <a className={`p-4 w-full block ${'/projects' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                <a className={`p-4 w-full block ${'/projects' === asPath ? 'bg-brand-light bg-b-4' : 'hover:bg-gray-200'}`}>
                                     Projects
                                 </a>
                             </Link>
                         </li>
                         <li className='w-full'>
                             <Link href="/education">
-                                <a className={`p-4 w-full block ${'/education' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                <a className={`p-4 w-full block ${'/education' === asPath ? 'bg-brand-light bg-b-4' : 'hover:bg-gray-200'}`}>
                                     Education
                                 </a>
                             </Link>
                         </li>
                         <li className='w-full'>
                             <Link href="/skills">
-                                <a className={`p-4 w-full block ${'/skills' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                <a className={`p-4 w-full block ${'/skills' === asPath ? 'bg-brand-light bg-b-4' : 'hover:bg-gray-200'}`}>
                                     Skills
                                 </a>
                             </Link>
                         </li>
                         <li className='w-full'>
                             <Link href="/certificates-awards">
-                                <a className={`p-4 w-full block ${'/certificates-awards' === asPath ? 'bg-brand-light bg-b-4' : ''}`}>
+                                <a className={`p-4 w-full block ${'/certificates-awards' === asPath ? 'bg-brand-light bg-b-4' : 'hover:bg-gray-200'}`}>
                                     Certificate & Awards
                                 </a>
                             </Link>
