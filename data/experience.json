@@ -4,12 +4,14 @@
         "company": "Publicis Sapient",
         "role": "Associate Experience Technology",
         "duration": "April 2021",
-        "currentCompany": true
+        "currentCompany": true,
+        "description": "In Publicis Sapient, I am working as a front end developer with technologies like NextJS, ReactJS, testing-library, Jest, Git, Lerna, Sonarqube, Veracode etc. I am responsible for developing robust and scalable websites and be a part of end to end process starting from requirement gathering till managing devops. In addition to this, I also help and mentor junior resources and guide them when they face difficulties with the project or any technical thing."
     },
     {
         "id": 2,
         "company": "Mindtree",
         "role": "Senior Engineer",
-        "duration": "November 2017 - April 2021"
+        "duration": "November 2017 - April 2021",
+        "description": "In Mindtree, I worked as a front end engineer. I was responsible for managing the frontend of the project. I was part of the SDLC process i.e., requirement gathering, development, unit testing, demo and deployment."
     }
 ]
