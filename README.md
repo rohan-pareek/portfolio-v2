@@ -1,3 +1,16 @@
-# Portfolio v2 - WIP
+# Portfolio v2
 
-This is second version of my digital portfolio. For this one, I have used NextJS as the primary tool. The version 1 was build with ReactJS.
+This is the second version of my digital portfolio.
+
+## Tools used for v2
+
+- NextJS
+- Tailwindcss
+- Font awesome icons
+- Vercel
+
+## Tools used for v1
+
+- ReactJS
+- Font awesome icons
+- Netlify
