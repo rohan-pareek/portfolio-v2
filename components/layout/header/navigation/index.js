@@ -87,7 +87,7 @@ const Navigation = props => {
                         <li className='w-full'>
                             <Link href="/certificates-awards">
                                 <a className={`p-4 w-full block ${'/certificates-awards' === asPath ? 'bg-brand-light bg-b-4' : 'hover:bg-gray-200'}`}>
-                                    Certificate & Awards
+                                    Certificates & Awards
                                 </a>
                             </Link>
                         </li>
