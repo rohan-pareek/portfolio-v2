@@ -1,157 +1,139 @@
 [
-    {
-        "name": "EPOS Ad Playlist",
-        "description": "A website that manages stores and ad data for albertsons stores. Authorised user can add media and ad details for specific stores.",
-        "github": "Confidential",
-        "site": "Confidential",
-        "technologies": [
-            "HTML",
-            "JavaScript",
-            "NextJS",
-            "testing-library",
-            "Sonarqube",
-            "Lerna",
-            "Veracode"
-        ],
-        "personal": false
-    },
-    {
-        "name": "ID Generator",
-        "description": "A simple JavaScript app which generates random id comprising of numbers and letters.",
-        "github": "https://github.com/rohan-pareek/id-generator",
-        "site": "https://rohan-pareek.github.io/id-generator/",
-        "technologies": [
-            "HTML",
-            "JavaScript"
-        ],
-        "personal": true
-    },
-    {
-        "name": "SpaceX Launch Programs",
-        "description": "This website allows any user to browse all SpaceX launch programs. User can filter by launch date, successful launch and successful landing. Each program card will display details like Mission name, logo, launch year etc. In addition to this, the site is fully responsive and can be viewed in pc, laptop and mobile devices.",
-        "github": "https://github.com/rohan-pareek/spacex-launch-programs",
-        "site": "https://ps-spacex.netlify.app/",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "ReactJS",
-            "Redux",
-            "SpaceXdata API"
-        ],
-        "personal": true
-    },
-    {
-        "name": "DigiToss",
-        "description": "DIGITOSS is a simple app that helps you do toss for any of your matches. In addition to this, it provides user a functionality to add players and make a system generated team from these players. Once team is formed, user can pin that team as well",
-        "github": "https://github.com/rohan-pareek/toss",
-        "site": "https://mytoss.netlify.app/",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "ReactJS",
-            "Redux",
-            "NodeJS",
-            "Express",
-            "MongoDB"
-        ],
-        "personal": true
-    },
-    {
-        "name": "Expense Manager",
-        "description": "An app which anyone can use to track their daily expenses and income. End user can create an account to see the history of their transactions",
-        "github": "https://github.com/rohan-pareek/expense-manager",
-        "site": "https://myexpensemanager.netlify.app/",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "ReactJS",
-            "Redux",
-            "NodeJS",
-            "Express",
-            "MongoDB",
-            "JWT"
-        ],
-        "personal": true
-    },
-    {
-        "name": "Bhagwati Enterprises",
-        "description": "A website build for a firm named Bhagwati Enterprises. This website will help customers to explore the products that shop sells. The website has an admin panel where shop owner can add, edit or delete products",
-        "site": "https://bhagwatienterpriseskrb.com/",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "Angular",
-            "NodeJS",
-            "Express",
-            "MongoDB",
-            "JWT",
-            "Firebase"
-        ],
-        "personal": true
-    },
-    {
-        "name": "EasyDonate",
-        "description": "EasyDonate is a web application which helps in simplifying donation process. Anyone can give or donate using this website",
-        "github": "https://github.com/rohan-pareek/EasyDonate",
-        "site": null,
-        "technologies": [
-            "HTML",
-            "CSS",
-            "Angular",
-            "NodeJS",
-            "Express",
-            "MongoDB",
-            "JWT"
-        ],
-        "personal": true
-    },
-    {
-        "name": "Covid 19 Tracker",
-        "description": "Covid 19 Tracker is a web application that can be used to get information of Corona virus in any country",
-        "github": "https://github.com/rohan-pareek/covid-19-tracker",
-        "site": null,
-        "technologies": [
-            "HTML",
-            "CSS",
-            "ReactJS"
-        ],
-        "personal": true
-    },
-    {
-        "name": "Weather Cloud",
-        "description": "A React app that helps any user to find out the weather information of any city of the world",
-        "github": "https://github.com/rohan-pareek/react-weather-cloud",
-        "site": "https://rp-weather-cloud.netlify.app",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "ReactJS"
-        ],
-        "personal": true
-    },
-    {
-        "name": "Photo Gallery",
-        "description": "Photo Gallery is a ReactJS app used to create a archives of images. Images are stored in google firebase",
-        "github": "https://github.com/rohan-pareek/react-photo-gallery",
-        "site": null,
-        "technologies": [
-            "HTML",
-            "CSS",
-            "ReactJS",
-            "Firebase"
-        ],
-        "personal": true
-    },
-    {
-        "name": "Todo App",
-        "description": "This is a simple Todo App made using ReactJS. User can add their daily tasks which is stored locally. Hence, accessible even after the website is closed",
-        "github": "https://github.com/rohan-pareek/simple-react-todo-app",
-        "site": "https://rp-react-todo.netlify.app",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "ReactJS"
-        ],
-        "personal": true
-    }
+  {
+    "name": "Twitter Bot",
+    "description": "This is a bot that auto likes and retweets content related to front end development.",
+    "github": "https://github.com/rohan-pareek/twitter-bot",
+    "site": "https://twitter.com/DevsFrontend",
+    "technologies": ["JavaScript", "NodeJS", "Twitter API"],
+    "personal": true
+  },
+  {
+    "name": "EPOS Ad Playlist",
+    "description": "A website that manages stores and ad data for albertsons stores. Authorised user can add media and ad details for specific stores.",
+    "github": "Confidential",
+    "site": "Confidential",
+    "technologies": [
+      "HTML",
+      "JavaScript",
+      "NextJS",
+      "testing-library",
+      "Sonarqube",
+      "Lerna",
+      "Veracode"
+    ],
+    "personal": false
+  },
+  {
+    "name": "ID Generator",
+    "description": "A simple JavaScript app which generates random id comprising of numbers and letters.",
+    "github": "https://github.com/rohan-pareek/id-generator",
+    "site": "https://rohan-pareek.github.io/id-generator/",
+    "technologies": ["HTML", "JavaScript"],
+    "personal": true
+  },
+  {
+    "name": "SpaceX Launch Programs",
+    "description": "This website allows any user to browse all SpaceX launch programs. User can filter by launch date, successful launch and successful landing. Each program card will display details like Mission name, logo, launch year etc. In addition to this, the site is fully responsive and can be viewed in pc, laptop and mobile devices.",
+    "github": "https://github.com/rohan-pareek/spacex-launch-programs",
+    "site": "https://ps-spacex.netlify.app/",
+    "technologies": ["HTML", "CSS", "ReactJS", "Redux", "SpaceXdata API"],
+    "personal": true
+  },
+  {
+    "name": "DigiToss",
+    "description": "DIGITOSS is a simple app that helps you do toss for any of your matches. In addition to this, it provides user a functionality to add players and make a system generated team from these players. Once team is formed, user can pin that team as well",
+    "github": "https://github.com/rohan-pareek/toss",
+    "site": "https://mytoss.netlify.app/",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "ReactJS",
+      "Redux",
+      "NodeJS",
+      "Express",
+      "MongoDB"
+    ],
+    "personal": true
+  },
+  {
+    "name": "Expense Manager",
+    "description": "An app which anyone can use to track their daily expenses and income. End user can create an account to see the history of their transactions",
+    "github": "https://github.com/rohan-pareek/expense-manager",
+    "site": "https://myexpensemanager.netlify.app/",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "ReactJS",
+      "Redux",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "JWT"
+    ],
+    "personal": true
+  },
+  {
+    "name": "Bhagwati Enterprises",
+    "description": "A website build for a firm named Bhagwati Enterprises. This website will help customers to explore the products that shop sells. The website has an admin panel where shop owner can add, edit or delete products",
+    "site": "https://bhagwatienterpriseskrb.com/",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Angular",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Firebase"
+    ],
+    "personal": true
+  },
+  {
+    "name": "EasyDonate",
+    "description": "EasyDonate is a web application which helps in simplifying donation process. Anyone can give or donate using this website",
+    "github": "https://github.com/rohan-pareek/EasyDonate",
+    "site": null,
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Angular",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "JWT"
+    ],
+    "personal": true
+  },
+  {
+    "name": "Covid 19 Tracker",
+    "description": "Covid 19 Tracker is a web application that can be used to get information of Corona virus in any country",
+    "github": "https://github.com/rohan-pareek/covid-19-tracker",
+    "site": null,
+    "technologies": ["HTML", "CSS", "ReactJS"],
+    "personal": true
+  },
+  {
+    "name": "Weather Cloud",
+    "description": "A React app that helps any user to find out the weather information of any city of the world",
+    "github": "https://github.com/rohan-pareek/react-weather-cloud",
+    "site": "https://rp-weather-cloud.netlify.app",
+    "technologies": ["HTML", "CSS", "ReactJS"],
+    "personal": true
+  },
+  {
+    "name": "Photo Gallery",
+    "description": "Photo Gallery is a ReactJS app used to create a archives of images. Images are stored in google firebase",
+    "github": "https://github.com/rohan-pareek/react-photo-gallery",
+    "site": null,
+    "technologies": ["HTML", "CSS", "ReactJS", "Firebase"],
+    "personal": true
+  },
+  {
+    "name": "Todo App",
+    "description": "This is a simple Todo App made using ReactJS. User can add their daily tasks which is stored locally. Hence, accessible even after the website is closed",
+    "github": "https://github.com/rohan-pareek/simple-react-todo-app",
+    "site": "https://rp-react-todo.netlify.app",
+    "technologies": ["HTML", "CSS", "ReactJS"],
+    "personal": true
+  }
 ]
