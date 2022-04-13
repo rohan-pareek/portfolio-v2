@@ -1,7 +1,15 @@
 [
   {
+    "name": "Next Recipe",
+    "description": "Next Recipe is a website that helps user explore recipes from around the world. This app uses spoonacular api to fetch recipes.",
+    "github": "https://github.com/rohan-pareek/next-recipe",
+    "site": "https://nextrecipe.vercel.app/",
+    "technologies": ["HTML", "CSS", "NextJS", "Spoonacular API", "Twitter API"],
+    "personal": true
+  },
+  {
     "name": "Twitter Bot",
-    "description": "This is a bot that auto likes and retweets content related to front end development.",
+    "description": "Twitter Bot is a bot that auto likes and retweets content related to front end development.",
     "github": "https://github.com/rohan-pareek/twitter-bot",
     "site": "https://twitter.com/DevsFrontend",
     "technologies": ["JavaScript", "NodeJS", "Twitter API"],
