@@ -4,7 +4,7 @@
     "description": "Next Recipe is a website that helps user explore recipes from around the world. This app uses spoonacular api to fetch recipes.",
     "github": "https://github.com/rohan-pareek/next-recipe",
     "site": "https://nextrecipe.vercel.app/",
-    "technologies": ["HTML", "CSS", "NextJS", "Spoonacular API", "Twitter API"],
+    "technologies": ["HTML", "CSS", "NextJS", "Spoonacular API"],
     "personal": true
   },
   {
