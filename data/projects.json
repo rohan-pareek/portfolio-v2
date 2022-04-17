@@ -1,5 +1,13 @@
 [
   {
+    "name": "Spend the Money",
+    "description": "Spend the Money is a fun website that lets you simulate the spending of rich people's money",
+    "github": "https://github.com/rohan-pareek/spend-the-money",
+    "site": "https://spendthemoney.netlify.app/",
+    "technologies": ["HTML", "CSS", "ReactJS"],
+    "personal": true
+  },
+  {
     "name": "Next Recipe",
     "description": "Next Recipe is a website that helps user explore recipes from around the world. This app uses spoonacular api to fetch recipes.",
     "github": "https://github.com/rohan-pareek/next-recipe",
