@@ -1,5 +1,13 @@
 [
   {
+    "name": "Random Quotes Generator",
+    "description": "This is an app that helps you get random quotes and share it on twitter.",
+    "github": "https://github.com/rohan-pareek/random-quotes-generator",
+    "site": "https://grq.netlify.app/",
+    "technologies": ["HTML", "CSS", "ReactJS"],
+    "personal": true
+  },
+  {
     "name": "Spend the Money",
     "description": "Spend the Money is a fun website that lets you simulate the spending of rich people's money",
     "github": "https://github.com/rohan-pareek/spend-the-money",
